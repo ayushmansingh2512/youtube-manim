@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/91638/Desktop/computer-science/stacks/media/videos/stack_operation_pull/1080p60/partial_movie_files/StackOperationPull/3977891868_1467459220_346003506.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/stacks/media/videos/stack_operation_pull/1080p60/partial_movie_files/StackOperationPull/2852726489_1809987095_346003506.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/stacks/media/videos/stack_operation_pull/1080p60/partial_movie_files/StackOperationPull/2852726489_634872171_3013646443.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/stacks/media/videos/stack_operation_pull/1080p60/partial_movie_files/StackOperationPull/2852726489_1917328832_3013646443.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/stacks/media/videos/stack_operation_pull/1080p60/partial_movie_files/StackOperationPull/2852726489_2712334280_1531698385.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/stacks/media/videos/stack_operation_pull/1080p60/partial_movie_files/StackOperationPull/2852726489_1809987095_1531698385.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/stacks/media/videos/stack_operation_pull/1080p60/partial_movie_files/StackOperationPull/2852726489_4051626722_434446032.mp4'

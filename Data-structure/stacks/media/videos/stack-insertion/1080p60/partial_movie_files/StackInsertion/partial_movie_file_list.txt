@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/91638/Desktop/computer-science/stacks/media/videos/stack-insertion/1080p60/partial_movie_files/StackInsertion/3977891868_3534236278_2144699579.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/stacks/media/videos/stack-insertion/1080p60/partial_movie_files/StackInsertion/2852726489_1474773116_2144699579.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/stacks/media/videos/stack-insertion/1080p60/partial_movie_files/StackInsertion/2852726489_3148454771_4014424471.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/stacks/media/videos/stack-insertion/1080p60/partial_movie_files/StackInsertion/2852726489_1784046031_3995000673.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/stacks/media/videos/stack-insertion/1080p60/partial_movie_files/StackInsertion/2852726489_2502957814_3995000673.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/stacks/media/videos/stack-insertion/1080p60/partial_movie_files/StackInsertion/2852726489_1044613484_1757533744.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/stacks/media/videos/stack-insertion/1080p60/partial_movie_files/StackInsertion/2852726489_1292659984_2042758988.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/stacks/media/videos/stack-insertion/1080p60/partial_movie_files/StackInsertion/2852726489_2424939189_2042758988.mp4'

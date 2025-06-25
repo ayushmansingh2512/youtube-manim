@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/91638/Desktop/computer-science/Data-structure/dynamic programing/media/videos/dynamic_progarming/1080p60/partial_movie_files/CoinSwitch/2595692158_886635271_1409538722.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/Data-structure/dynamic programing/media/videos/dynamic_progarming/1080p60/partial_movie_files/CoinSwitch/3888201728_4189572814_1659086414.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/Data-structure/dynamic programing/media/videos/dynamic_progarming/1080p60/partial_movie_files/CoinSwitch/3888201728_4217992463_2879776655.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/Data-structure/dynamic programing/media/videos/dynamic_progarming/1080p60/partial_movie_files/CoinSwitch/3888201728_2429093622_2150327150.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/Data-structure/dynamic programing/media/videos/dynamic_progarming/1080p60/partial_movie_files/CoinSwitch/3888201728_4217992463_813919143.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/Data-structure/dynamic programing/media/videos/dynamic_progarming/1080p60/partial_movie_files/CoinSwitch/3888201728_3286764277_1453288226.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/Data-structure/dynamic programing/media/videos/dynamic_progarming/1080p60/partial_movie_files/CoinSwitch/3888201728_2834709167_4220781178.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/Data-structure/dynamic programing/media/videos/dynamic_progarming/1080p60/partial_movie_files/CoinSwitch/3888201728_2143431542_3405739333.mp4'
+file 'file:C:/Users/91638/Desktop/computer-science/Data-structure/dynamic programing/media/videos/dynamic_progarming/1080p60/partial_movie_files/CoinSwitch/3888201728_2844360058_1189228191.mp4'
