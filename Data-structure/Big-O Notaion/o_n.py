@@ -49,42 +49,87 @@ class MyScene(Scene):
         pointer_text = Text('6', color='BLACK', font_size=15).next_to(pointer, UP, buff=0.1)
 
         pointer_group = VGroup(pointer, pointer_text)
-        pointer_group.next_to(boxes[0], UP, buff=0.3)
-        # self.add(pointer_group)
-        # boxes[5].set_fill('#BCD1CA',opacity=1)
-        # for i in range(4+1):
-        #     boxes[i].set_fill('#CEC6B9',opacity=1)
+        pointer_group.next_to(boxes[5], UP, buff=0.3)
+        self.add(pointer_group)
+        boxes[5].set_fill('#BCD1CA',opacity=1)
+        for i in range(4+1):
+            boxes[i].set_fill('#CEC6B9',opacity=1)
 
         # ValueTracker for counting operations
         counter = ValueTracker(0)
         
         # Create a number display
         operation_label = Text("Operations:", font='American Typewriter', color=BLACK).scale(0.3)
-        operation_number = DecimalNumber(counter.get_value(), num_decimal_places=0, color=BLACK).scale(0.3)
-        
+        # operation_number = DecimalNumber(counter.get_value(), num_decimal_places=0, color=BLACK).scale(0.3)
+        operation_number = Text('6' , color=BLACK).scale(0.3)
+
+
         # Positioning the counter display
-        operation_label.next_to(boxes, DOWN, buff=1.5, aligned_edge=LEFT)
+        operation_label.next_to(boxes, DOWN, buff=1, aligned_edge=LEFT)
         operation_number.next_to(operation_label, RIGHT, buff=0.2)
         
         # Add updater to reflect changing counter value
         operation_number.add_updater(lambda m: m.set_value(counter.get_value()))         
         self.add(operation_label, operation_number)
-            
-        found = False
-        for i , val in enumerate(arr):
-            self.play(counter.animate.set_value(i), run_time=0.3)
-            if i > 0:
-                self.play(pointer_group.animate.next_to(boxes[i],UP,buff=0.3),run_time=3)
-
-            if val == target:
-                self.play(boxes[i].animate.set_fill('#BCD1CA',opacity=1))
-                true_text = Text('True', font='American Typewriter', color='BLACK').scale(0.3)
-                true_text.next_to(i_label,DOWN,buff=0.3,aligned_edge=LEFT)
-                self.play(Write(true_text))
-                break
-
-            else:
-                self.play(boxes[i].animate.set_fill('#CEC6B9',opacity=1)) 
 
 
-        self.wait(2)
+
+
+        ax = Axes(
+            x_range=[0, 10, 1],
+            y_range=[0, 10, 1],
+            x_length=6,
+            y_length=4,
+            axis_config={"color": BLACK, "include_ticks": False},
+        ).scale(0.7)
+
+        ax.to_edge(UR).shift(DOWN*2.5)
+
+        # Labels
+        text = Text("O(n)", color=BLACK).scale(0.5)
+        text2 = Text("Data", color=BLACK, font="American Typewriter").scale(0.5)
+        text3 = Text("Time", color=BLACK, font="American Typewriter").scale(0.5)
+
+        text2.next_to(ax, DOWN, buff=0.2)
+        text3.next_to(ax, LEFT, buff=0.2)
+
+        # Add base elements
+        self.add(ax, text2, text3)
+
+        # ValueTracker for progressive drawing
+        i_tracker = ValueTracker(0)
+
+        # Function line (y = x), dynamically updated
+        graph = always_redraw(lambda: ax.plot(
+            lambda x: x,
+            # x_range=[0, i_tracker.get_value()],
+            x_range=[0,6],
+            color='#D97757'
+        ))
+
+        self.add(graph)
+
+
+
+        # found = False
+        # for i, val in enumerate(arr):
+        #     self.play(
+        #         counter.animate.set_value(i + 1),
+        #         i_tracker.animate.set_value(i + 1),
+        #         run_time=0.4
+        #     )
+        
+        #     if i > 0:
+        #         self.play(pointer_group.animate.next_to(boxes[i], UP, buff=0.3), run_time=1)
+        
+        #     if val == target:
+        #         self.play(boxes[i].animate.set_fill('#BCD1CA', opacity=1))
+        #         true_text = Text('True', font='American Typewriter', color='BLACK').scale(0.3)
+        #         true_text.next_to(i_label, DOWN, buff=0.3, aligned_edge=LEFT)
+        #         self.play(Write(true_text))
+        #         break
+        #     else:
+        #         self.play(boxes[i].animate.set_fill('#CEC6B9', opacity=1))
+        
+
+        # self.wait(2)
