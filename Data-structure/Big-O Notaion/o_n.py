@@ -69,7 +69,7 @@ class MyScene(Scene):
         # Add updater to reflect changing counter value
         operation_number.add_updater(lambda m: m.set_value(counter.get_value()))         
         self.add(operation_label, operation_number)
-
+            
         found = False
         for i , val in enumerate(arr):
             self.play(counter.animate.set_value(i), run_time=0.3)
