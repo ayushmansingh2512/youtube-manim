@@ -62,3 +62,4 @@ class LinearSearchGraph(Scene):
             self.play(Write(not_found))
 
         self.wait(2)
+        
